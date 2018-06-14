@@ -1,4 +1,4 @@
-SpreeDisableCart
+SpreeHideCart
 ================
 
 Introduction goes here.
@@ -7,7 +7,7 @@ Introduction goes here.
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_disable_cart', github: '[your-github-handle]/spree_disable_cart'
+  gem 'spree_hide_cart', github: '[your-github-handle]/spree_hide_cart'
   ```
 
 2. Install the gem using Bundler:
@@ -17,7 +17,7 @@ Introduction goes here.
 
 3. Copy & run migrations
   ```ruby
-  bundle exec rails g spree_disable_cart:install
+  bundle exec rails g spree_hide_cart:install
   ```
 
 4. Restart your server
@@ -37,7 +37,7 @@ When testing your applications integration with this extension you may use it's 
 Simply add this require statement to your spec_helper:
 
 ```ruby
-require 'spree_disable_cart/factories'
+require 'spree_hide_cart/factories'
 ```
 
 

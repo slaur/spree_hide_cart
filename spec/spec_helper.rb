@@ -35,8 +35,8 @@ require 'capybara-screenshot'
 require 'capybara-screenshot/rspec'
 require 'capybara/rails'
 
-# Requires factories defined in lib/spree_disable_cart/factories.rb
-require 'spree_disable_cart/factories'
+# Requires factories defined in lib/spree_hide_cart/factories.rb
+require 'spree_hide_cart/factories'
 
 RSpec.configure do |config|
   config.include FactoryBot::Syntax::Methods

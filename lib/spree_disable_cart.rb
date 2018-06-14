@@ -1,4 +1,4 @@
 require 'spree_core'
 require 'spree_extension'
-require 'spree_disable_cart/engine'
-require 'spree_disable_cart/version'
+require 'spree_hide_cart/engine'
+require 'spree_hide_cart/version'

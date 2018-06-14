@@ -1,8 +1,8 @@
-module SpreeDisableCart
+module SpreeHideCart
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_disable_cart'
+    engine_name 'spree_hide_cart'
 
     # use rspec for tests
     config.generators do |g|

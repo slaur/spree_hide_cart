@@ -2,19 +2,19 @@
 lib = File.expand_path('../lib/', __FILE__)
 $LOAD_PATH.unshift lib unless $LOAD_PATH.include?(lib)
 
-require 'spree_disable_cart/version'
+require 'spree_hide_cart/version'
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_disable_cart'
-  s.version     = SpreeDisableCart.version
+  s.name        = 'spree_hide_cart'
+  s.version     = SpreeHideCart.version
   s.summary     = 'Add extension summary here'
   s.description = 'Add (optional) extension description here'
   s.required_ruby_version = '>= 2.2.7'
 
   s.author    = 'You'
   s.email     = 'you@example.com'
-  s.homepage  = 'https://github.com/your-github-handle/spree_disable_cart'
+  s.homepage  = 'https://github.com/your-github-handle/spree_hide_cart'
   s.license = 'BSD-3-Clause'
 
   # s.files       = `git ls-files`.split("\n").reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }
